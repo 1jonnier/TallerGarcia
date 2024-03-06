@@ -17,3 +17,21 @@
     margin: 0 auto;
     font-size: 60px;
   }
+  .contenedor-home {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 10%;
+    border: 2px solid grey;
+    background: red;
+  }
+  
+  
+  
+  .contenedor-home img {
+    width: 600px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
