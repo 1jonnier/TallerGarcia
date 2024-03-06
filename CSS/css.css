@@ -24,14 +24,38 @@
     width: 80%;
     height: 10%;
     border: 2px solid grey;
-    background: red;
   }
-  
-  
   
   .contenedor-home img {
     width: 600px;
     height: 300px;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  .boton-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .boton-global {
+    background: red;
+    color: white;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    border: 1px solid transparent;
+    transition: all 0.5s ease;
+  }
+  
+  .boton-global:hover {
+    background: rgb(50, 113, 143);
+    border: 1px solid rgb(66, 185, 206);
+  }
+  
+  .boton-container a{
+   
+    text-decoration: none;
   }
